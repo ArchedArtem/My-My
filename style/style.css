@@ -238,6 +238,7 @@ a {
 .carrier{
     margin-top: 100px;
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #666666;
 }
 
@@ -258,7 +259,7 @@ a {
 }
 
 .carrier .container .text .textt span{
-    font-family: 'Bold';
+    font-family: 'Bold', sans-serif;
 }
 
 .carrier .container .text{
@@ -271,4 +272,54 @@ a {
 .carrier .container .text img{
     width: 454px;
     height: 370.67px;
+}
+
+.contacts{
+    margin-top: 100px;
+}
+
+.contacts h2{
+    font-family: 'Bold', sans-serif;
+    color: #222222;
+    font-size: 64px;
+}
+
+.contacts .p-contact{
+    font-family: 'SemiBold', sans-serif;
+    color: #222222;
+    font-size: 32px;
+}
+
+.contacts .container .icons{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts .container .icons .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts .container .icons .icon img{
+    margin-right: 10px;
+}
+
+.contacts .container .icons .icon-tg img{
+    margin-right: -10px;
+}
+
+.contacts .container .icons .icon .text .top{
+    font-family: 'Bold', sans-serif;
+    font-size: 32px;
+    color: #222222;
+    margin-bottom: 0;
+}
+
+.contacts .container .icons .icon .text .bottom{
+    font-family: 'SemiBold', sans-serif;
+    font-size: 20px;
+    color: #222222;
 }
