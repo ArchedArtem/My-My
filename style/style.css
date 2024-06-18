@@ -599,6 +599,99 @@ footer .container a{
     .container {
         width: 98%;
     }
+
+    .navigation .navigation-2 p{
+        font-size: 20px;
+    }
+    
+    .about .container .text p{
+        font-size: 12px;
+    }
+
+    .about .container .text h2, .skills h2, .portfolio .container .text h2, .carrier .container h2, .contacts h2, .forma h2 {
+        font-size: 40px;
+    }
+
+    .skills{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .skills .buttons label{
+        width: 200px;
+        height: 50px;
+        font-size: 23px !important;
+    }
+
+    .skills .container .buttons .text .text-left P {
+        font-size: 14px;
+    }
+
+    .portfolio .container .text p, .contacts .p-contact, .forma .p-form, .forma label {
+        font-size: 12px;
+    }
+
+    .portfolio .container .cards .card h3 {
+        font-size: 18px;
+    }
+
+    .portfolio .container .cards .card p {
+        font-size: 9px;
+    }
+
+    .portfolio .container .cards .card button {
+        width: 80%;
+        font-size: 10px;
+    }
+
+    .carrier .container .text .textt p {
+        font-size: 15px;
+    }
+
+    .carrier{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contacts .container .icons .icon .text .top {
+        font-size: 20px;
+    }
+
+    .contacts .container .icons .icon .text .bottom {
+        font-size: 15px;
+    }
+
+    .forma input {
+        width: 120%;
+        height: 50px;
+    }
+
+    .mb-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mb-3 label{
+        align-self: flex-start;
+        margin-left: -30px;
+    }
+
+    .forma .container form button{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .forma{
+        padding-bottom: 50px;
+    }
+
+    footer .container p {
+        font-size: 10px !important;
+    }
 }
 
 @media (max-width: 576px) {
