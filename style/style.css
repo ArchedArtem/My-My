@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'Bold';
+    src: url(../fonts/MontserratAlternates-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'SemiBold';
+    src: url(../fonts/MontserratAlternates-SemiBold.ttf);
+}
+
+* {
+    font-family: 'Manrope-Medium', sans-serif;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation{
+    background-color: #666666;
+}
+
+.navigation p{
+    font-family: 'SemiBold', sans-serif;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navigation .container{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
