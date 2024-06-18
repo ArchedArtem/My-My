@@ -36,6 +36,10 @@ a {
     background-color: #666666;
 }
 
+.navigation a{
+    text-decoration: none;
+}
+
 .navigation p{
     font-family: 'SemiBold', sans-serif;
     color: white;
@@ -89,6 +93,7 @@ a {
     color: rgb(255, 255, 255);
     text-decoration-color: rgb(63, 112, 234);
     text-underline-offset: 5px;
+    box-shadow: 0 0 4px 15px rgba(34, 34, 34, 0.3);
 }
 
 .skills .container .buttons input{
@@ -378,4 +383,29 @@ form{
     font-size: 22px;
     font-family: 'SemiBold', sans-serif;
     color: #222222;
+}
+
+footer{
+    padding: 20px;
+    background-color: #666666;
+    border-top: 1px solid #222222;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container p{
+    font-size: 20px !important;
+    font-family: 'Bold', sans-serif !important;
+    color: white !important;
+    margin-bottom: 0;
+}
+
+footer .container a{
+    
+    color: white;
+    font-family: 'Bold', sans-serif;
 }
