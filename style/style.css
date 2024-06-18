@@ -698,10 +698,93 @@ footer .container a{
     .container {
         width: 98%;
     }
+
+    .skills .container .buttons .text .text-left P {
+        font-size: 12px;
+    }
+
+    .portfolio .container .cards .card h3 {
+        font-size: 15px;
+    }
+
+    .portfolio .container .cards .card button{
+        font-size: 8px;
+    }
+
+    .portfolio .container .cards .card p {
+        font-size: 8px;
+    }
+
+
 }
 
 @media (max-width: 480px) {
     .container {
         width: 98%;
+    }
+
+    .forma input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .mb-3 label{
+        margin-left: 0;
+    }
+
+    .about .container .text h2, .skills h2, .portfolio .container .text h2, .carrier .container h2, .contacts h2, .forma h2 {
+        font-size: 25px;
+    }
+
+    .portfolio .container .text p, .contacts .p-contact, .forma .p-form, .forma label {
+        font-size: 8px;
+    }
+
+    .contacts .container .icons{
+        margin-top: 20px;
+    }
+
+    .carrier .container .text .textt p {
+        font-size: 10px;
+    }
+
+    .portfolio .container .cards{
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .portfolio .container .cards .card {
+        width: 45%;
+    }
+
+    .portfolio .container .cards .card h3 {
+        font-size: 14px;
+    }
+
+    .portfolio .container .cards .card p {
+        font-size: 7px;
+    }
+
+    .portfolio .container .cards .card button {
+        font-size: 7px !important;
+    }
+
+    .skills .buttons label {
+        width: 110px;
+        height: 40px;
+        font-size: 14px !important;
+        box-shadow: 0 0 4px 5px rgba(34, 34, 34, 0.3);
+    }
+
+    .skills .container .buttons .text .text-left P {
+        font-size: 9px;
+    }
+
+    .about .container .text p {
+        font-size: 8px;
+    }
+
+    .navigation .navigation-2 p {
+        font-size: 16px;
     }
 }
