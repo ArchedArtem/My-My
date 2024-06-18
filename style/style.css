@@ -8,6 +8,11 @@
     src: url(../fonts/MontserratAlternates-SemiBold.ttf);
 }
 
+@font-face{
+    font-family: 'Regular';
+    src: url(../fonts/MontserratAlternates-Regular.ttf);
+}
+
 * {
     font-family: 'Manrope-Medium', sans-serif;
     padding: 0;
@@ -228,4 +233,42 @@ a {
     font-family: 'Bold', sans-serif;
     font-size: 18px;
     width: 60%;
+}
+
+.carrier{
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: #666666;
+}
+
+.carrier .container h2{
+    font-size: 64px;
+    font-family: 'Bold', sans-serif;
+    color: white;
+}
+
+.carrier .container .text .textt{
+    width: 50%;
+}
+
+.carrier .container .text .textt p{
+    font-family: 'Regular';
+    font-size: 36px;
+    color: white;
+}
+
+.carrier .container .text .textt span{
+    font-family: 'Bold';
+}
+
+.carrier .container .text{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrier .container .text img{
+    width: 454px;
+    height: 370.67px;
 }
