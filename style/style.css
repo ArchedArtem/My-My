@@ -323,3 +323,59 @@ a {
     font-size: 20px;
     color: #222222;
 }
+
+.forma{
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #666666;
+}
+
+.forma h2{
+    font-family: "Bold", sans-serif;
+    font-size: 64px;
+    color: white;
+}
+
+.forma .p-form{
+    width: 60%;
+    font-family: "SemiBold", sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.forma label{
+    font-family: 'SemiBold', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.forma input{
+    width: 600px;
+    height: 60px;
+}
+
+form{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forma .container form button{
+    width: 250px;
+    height: 60.51px;
+    background-color: #29D9FF;
+    color: white;
+    font-family: 'Bold', sans-serif;
+    font-size: 24px;
+    border: none;
+    margin-top: 50px;
+}
+
+.forma .container form input{
+    font-size: 22px;
+    font-family: 'SemiBold', sans-serif;
+    color: #222222;
+}
