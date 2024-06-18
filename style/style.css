@@ -409,3 +409,101 @@ footer .container a{
     color: white;
     font-family: 'Bold', sans-serif;
 }
+
+
+
+/* АДАПТИВ */
+
+@media (max-width: 1500px) {
+    .container {
+        width: 1440px;
+    }
+
+    .navigation p{
+        font-size: 25px;
+    }
+
+    .about .container .text p{
+        font-size: 25px;
+    }
+
+    .skills .container .buttons .text .text-left P{
+        font-size: 30px;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+
+    .navigation p{
+        font-size: 20px;
+    }
+
+    .about .container .text p{
+        font-size: 21px;
+    }
+
+    .about .container .text h2, .skills h2, .portfolio .container .text h2, .carrier .container h2, .contacts h2, .forma h2{
+        font-size: 55px;
+    }
+
+    .skills .container .buttons .text .text-left P{
+        font-size: 26px;
+    }
+
+    .portfolio .container .text p, .contacts .p-contact, .forma .p-form, .forma label{
+        font-size: 22px;
+    }
+
+    .portfolio .container .cards .card{
+        width: 30%;
+    }
+
+    .portfolio .container .cards .card button{
+        width: 70%;
+    }
+
+    .portfolio .container .cards .card p, .contacts .container .icons .icon .text .bottom{
+        font-size: 18px;
+    }
+
+    .carrier .container .text .textt p{
+        font-size: 25px;
+    }
+
+    .contacts .container .icons .icon .text .top{
+        font-size: 25px;
+    }
+
+    footer .container p{
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
+    }
+}
