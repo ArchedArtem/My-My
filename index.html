@@ -32,16 +32,119 @@
                     <h2>Обо мне</h2>
                     <p>Привет, я - Артём, студент НГК. Пишу сайты и немного увлекаюсь робототехникой. Играю в обычный
                         майнкрафт, так как он способствует интеллекту.
-
-                        Погрузитесь в мой мир работ и узнайте больше о моем увлекательном пути в веб-разработке.</p>
+                        <br><br>
+                        Погрузитесь в мой мир работ и узнайте больше о моем увлекательном пути в веб-разработке.
+                    </p>
                 </div>
 
                 <div class="slider">
-                    
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/test.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <main>
+        <div class="skills">
+            <div class="container">
+                <h2>Мои скиллы</h2>
+
+                <div class="buttons">
+                    <input checked type="radio" name="name" id="input1">
+                    <input type="radio" name="name" id="input2">
+                    <label for="input1" id="label1">hard скиллы</label>
+                    <label for="input2" id="label2">soft скиллы</label>
+                    <div class="perecluch">
+                        <div class="line">
+                            <div class="text text1">
+                                <div class="text-left">
+                                    <p>В моем арсенале навыков уже есть знание HTML, CSS и Python. Я стремлюсь к
+                                        постоянному самосовершенствованию и изучению новых технологий. Готов к новым
+                                        вызовам и готов расширять свои знания и навыки, чтобы достичь новых высот в
+                                        своей карьере в веб-разработке.</p>
+                                </div>
+
+                                <div class="img">
+                                    <img class="html" src="./img/html.png" alt="">
+                                    <img class="css" src="./img/css.png" alt="">
+                                    <img class="python" src="./img/python.png" alt="">
+                                </div>
+
+                            </div>
+
+                            <div class="text text2">
+                                <div class="text-left">
+                                    <p>Мои soft скиллы включают в себя ответственность и организованность, всегда
+                                        стараюсь выполнять поставленные задачи в срок. Моя целеустремленность и
+                                        стремление к саморазвитию помогают мне достигать поставленных целей и
+                                        совершенствовать свои навыки в веб-разработке.</p>
+                                </div>
+
+                                <div class="img">
+                                    <img class="html" src="./img/vopros.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <div class="container">
+                <div class="text">
+                    <center><h2>Мое портфолио</h2>
+                    <p>За прошедший год мной было сделано множество сайтов, которыми я горжусь</p></center>
+                </div>
+
+                <div class="cards">
+                    <div class="card">
+                        <img src="./img/live.png" alt="">
+                        <h3>Live-TV</h3>
+                        <p>Онлайн-кинотеатр</p>
+                        <button type="button" onclick="window.location.href = 'https://archedartem.github.io/Live-TV/'" class="btn">Посмотреть</button>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/mimilo.png" alt="">
+                        <h3>Mimilo</h3>
+                        <p>Продажа мыла</p>
+                        <button type="button" onclick="window.location.href = 'https://archedartem.github.io/MiMilo-My/'" class="btn">Посмотреть</button>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/mono.png" alt="">
+                        <h3>Monochrome</h3>
+                        <p>Онлайн-магазин одежды</p>
+                        <button type="button" onclick="window.location.href = 'https://archedartem.github.io/Monochrome-My/'" class="btn">Посмотреть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

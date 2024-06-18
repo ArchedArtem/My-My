@@ -43,3 +43,189 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.about{
+    margin-top: 100px;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .container .slider{
+    width: 45%;
+    height: 80%;
+}
+
+.about .container .text{
+    width: 50%;
+}
+
+.about .container .text h2{
+    font-family: 'Bold', sans-serif;
+    font-size: 64px;
+    color: #222222;
+}
+
+.about .container .text p{
+    margin-top: 100px;
+    font-family: 'SemiBold', sans-serif;
+    color: #222222;
+    font-size: 32px;
+}
+
+#input1:checked ~ .perecluch .text1, #input2:checked ~ .perecluch .text2{
+    display: block;
+}
+
+#input1:checked ~ #label1,
+#input2:checked ~ #label2{
+    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(63, 112, 234);
+    text-underline-offset: 5px;
+}
+
+.skills .container .buttons input{
+    display: none;
+}
+
+.skills .container .buttons .perecluch{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.skills .container .buttons .line{
+    width: 300%;
+    display: flex;
+}
+
+.skills .container .buttons .text{
+    color: rgb(0, 0, 0);
+    width: calc(100%/3);
+    transition: 1s;
+}
+
+.skills .container .buttons{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#label1, #label2{
+    color: #222222;
+    cursor: pointer;
+    font-size: 32px;
+    font-family: 'Bold', sans-serif;
+}
+
+#input1:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(0);
+}
+
+#input2:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+
+.skills{
+    height: 946px;
+    margin-top: 150px;
+    background-image: url(../img/fon\ skill.png);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.skills h2{
+    font-size: 64px;
+    font-family: 'Bold', sans-serif;
+    color: #222222;
+    text-align: center;
+}
+
+.skills .buttons label{
+    width: 319px;
+    height: 73px;
+    border-radius: 10px;
+    background-color: #29D9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skills .container .buttons .text .text-left P{
+    font-family: 'SemiBold';
+    font-size: 33px;
+}
+
+.skills .container .buttons .text{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.skills .container .buttons .text .text-left{
+    width: 60%;
+}
+
+.skills .container .buttons .text .img{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.skills .container .buttons .text2 .img{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.portfolio{
+    margin-top: 100px;
+}
+
+.portfolio .container .text h2{
+    font-size: 64px;
+    font-family: 'Bold', sans-serif;
+}
+
+.portfolio .container .text p{
+    width: 70%;
+    font-size: 32px;
+    font-family: 'SemiBold', sans-serif;
+}
+
+.portfolio .container .cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio .container .cards .card{
+    border: 0.25px solid #222222;
+    padding: 10px;
+}
+
+.portfolio .container .cards .card h3{
+    font-family: 'Bold';
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.portfolio .container .cards .card p{
+    font-family: 'SemiBold';
+    font-size: 20px;
+}
+
+.portfolio .container .cards .card button{
+    background-color: #29D9FF;
+    color: white;
+    font-family: 'Bold', sans-serif;
+    font-size: 18px;
+    width: 60%;
+}
