@@ -336,6 +336,10 @@ a {
     color: #222222;
 }
 
+.contacts .icons a{
+    text-decoration: none;
+}
+
 .forma{
     margin-top: 100px;
     padding-top: 100px;
@@ -787,4 +791,9 @@ footer .container a{
     .navigation .navigation-2 p {
         font-size: 16px;
     }
+
+    .card-mono{
+        margin-top: 20px;
+    }
+
 }
